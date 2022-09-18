@@ -1,7 +1,19 @@
-p {
-    background: linear-gradient(90deg, red, blue);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 200px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    background: cover;
+    color: white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
 }
