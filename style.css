@@ -1,0 +1,7 @@
+p {
+    background: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 200px;
+}
