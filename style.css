@@ -23,10 +23,6 @@ header div {
     text-decoration: none;
 }
 
-.links a::after {
-    content: " | ";
-}
-
 .links a:hover{
     text-decoration: underline;
 }
