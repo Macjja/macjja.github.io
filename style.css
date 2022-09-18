@@ -7,11 +7,24 @@ header {
     background-color: blue;
     background: cover;
     color: white;
+    font-size: 50px;
+}
+
+header div {
+    display: inline-block;
+}
+
+.links {
+    float:right;
 }
 
 .links a {
     color: white;
     text-decoration: none;
+}
+
+.links a::after {
+    content: " | ";
 }
 
 .links a:hover{
