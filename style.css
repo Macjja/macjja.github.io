@@ -7,22 +7,29 @@ header {
     background-color: blue;
     background: cover;
     color: white;
-    font-size: 50px;
+    font-size: 3vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 header div {
-    display: inline-block;
+    display: inline-flex;
 }
 
-.links {
-    float:right;
+.logo {
+    padding-left: 1vw;
 }
 
-.links a {
+#links {
+    align-self: right;
+}
+
+#links a {
     color: white;
     text-decoration: none;
 }
 
-.links a:hover{
+#links a:hover{
     text-decoration: underline;
 }
