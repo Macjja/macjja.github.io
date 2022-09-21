@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 header {
     background-color: blue;
     background: cover;
@@ -28,6 +32,7 @@ header div {
 #links a {
     color: white;
     text-decoration: none;
+    padding-right: 1rem;
 }
 
 #links a:hover{
