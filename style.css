@@ -10,11 +10,10 @@ html {
 
 header {
     background-color: blue;
-    background: cover;
+    background: fill;
     color: white;
-    font-size: 2rem;
+    font-size: 6rem;
     width: 100vw;
-    height: 5rem;
     display: flex;
     justify-content: space-between;
 }
