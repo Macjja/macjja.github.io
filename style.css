@@ -9,10 +9,10 @@ html {
 }
 
 header {
-    background-color: blue;
+    background-color: #2196F3;
     background: fill;
     color: white;
-    font-size: 5rem;
+    font-size: 4.5rem;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ header div {
 }
 
 .logo {
-    padding-left: 1vw;
+    padding-left: 1rem;
 }
 
 #links {
@@ -33,7 +33,8 @@ header div {
 #links a {
     color: white;
     text-decoration: none;
-    padding-right: 1rem;
+    padding-right: 3rem;
+    font-size: 1em;
 }
 
 #links a:hover{
