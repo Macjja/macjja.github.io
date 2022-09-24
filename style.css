@@ -16,6 +16,7 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    padding: 0.7rem 0;
 }
 
 header div {
@@ -23,7 +24,8 @@ header div {
 }
 
 .logo {
-    padding-left: 1rem;
+    padding-left: 3rem;
+    align-self: center;
 }
 
 #links {
@@ -34,7 +36,8 @@ header div {
     color: white;
     text-decoration: none;
     padding-right: 3rem;
-    font-size: 1em;
+    font-size: 0.7em;
+    align-self: center;
 }
 
 #links a:hover{
