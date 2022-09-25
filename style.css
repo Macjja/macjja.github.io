@@ -127,3 +127,15 @@ section {
         font-size: calc(5rem/6);
     }
 }
+
+@media screen and (max-width: 900px) {
+    #Projects {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); 
+    }
+
+    .project {
+        width: 35rem;
+        height: 17.5rem;
+        font-size: calc(35rem/60);
+    }
+}
