@@ -128,7 +128,7 @@ section {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
     #Projects {
         grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr)); 
     }
@@ -138,4 +138,30 @@ section {
         height: 17.5rem;
         font-size: calc(35rem/60);
     }
+}
+
+@media screen and (max-width: 700px) {
+    #links {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    .logo {
+        justify-self: center;
+        padding: 0;
+    }
+    #intro h1 {
+        font-size: 5rem;
+    }
+
+    #intro h2 {
+        font-size: calc(25rem / 7);
+    }
+
+    #Projects-section {
+        font-size: calc(20rem / 7);
+    }
+    
+
 }
