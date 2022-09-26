@@ -23,6 +23,46 @@ header div {
     display: inline-flex;
 }
 
+.logo {
+    padding-left: 3rem;
+    align-self: center;
+}
+
+#menu {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    border: 0.3rem solid white;
+    background-color: #2196F3;
+    justify-self: center;
+    margin-left: calc(auto - 0.7rem);
+    display: none;
+    padding-right: 0.7rem;
+}
+
+#menu img {
+    width: 64px;
+    height: 64px;
+    display: block;
+    transform: translate(-3px, -3px);
+}
+
+#links {
+    align-self: right;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    padding-right: 3rem;
+    font-size: 0.7em;
+    align-self: center;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -94,26 +134,7 @@ section {
     object-fit: cover;
 }
 
-.logo {
-    padding-left: 3rem;
-    align-self: center;
-}
 
-#links {
-    align-self: right;
-}
-
-#links a {
-    color: white;
-    text-decoration: none;
-    padding-right: 3rem;
-    font-size: 0.7em;
-    align-self: center;
-}
-
-#links a:hover{
-    text-decoration: underline;
-}
 
 @media screen and (max-width: 1260px) {
     
@@ -145,12 +166,22 @@ section {
         display: none;
     }
     header {
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 0.3fr);
+        grid-column-gap: 5px;
+        justify-items: center;
+        align-items: center;
     }
     .logo {
-        justify-self: center;
         padding: 0;
+        grid-column-start: 2;
+        justify-self: center;
     }
+    
+    #menu {
+        display: initial;
+    }
+    
     #intro h1 {
         font-size: 5rem;
     }
