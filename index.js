@@ -7,9 +7,9 @@ console.log(menu)
 menu.addEventListener("click", function() {
     menu_on = !menu_on;
     if (menu_on) {
-        links.style.display = "flex";
+        links.classList.add("hide");
     }
     if (!menu_on) {
-        links.style.display = "none";
+        links.classList.remove("hide");
     }
 });
