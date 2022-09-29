@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0.7rem 0;
+    position: absolute;
 }
 
 header div {
