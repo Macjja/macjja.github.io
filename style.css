@@ -46,7 +46,6 @@ header div {
     border: 0.3rem solid white;
     background-color: rgba(0, 0, 0, 0);
     justify-self: center;
-    margin-left: calc(auto - 0.7rem);
     display: none;
     margin-right: 0.7rem;
 }
