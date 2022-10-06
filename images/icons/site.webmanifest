@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "macjja.github.io",
+    "short_name": "macjja.github.io",
     "icons": [
         {
-            "src": "/images/icons/android-chrome-192x192.png",
+            "src": "/images/icons/android-chrome-192x192.png?v=1.0",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/icons/android-chrome-384x384.png",
+            "src": "/images/icons/android-chrome-384x384.png?v=1.0",
             "sizes": "384x384",
             "type": "image/png"
         }
