@@ -48,7 +48,7 @@ header div {
     justify-self: center;
     margin-left: calc(auto - 0.7rem);
     display: none;
-    padding-right: 0.7rem;
+    margin-right: 0.7rem;
 }
 
 #menu img {
