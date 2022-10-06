@@ -9,7 +9,7 @@ html {
 }
 
 header {
-    background-color: #2196F3;
+    background-color: #0c648b;
     background: fill;
     color: white;
     font-size: 4.5rem;
@@ -34,7 +34,7 @@ header div {
     height: 64px;
     border-radius: 10px;
     border: 0.3rem solid white;
-    background-color: #2196F3;
+    background-color: rgba(0, 0, 0, 0);
     justify-self: center;
     margin-left: calc(auto - 0.7rem);
     display: none;
