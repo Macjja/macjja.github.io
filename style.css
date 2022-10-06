@@ -27,7 +27,19 @@ header div {
 .logo {
     padding-left: 3rem;
     align-self: center;
+    width: 15rem;
+    height: 7rem;
+    overflow: hidden;
+    margin: 0;
 }
+
+.logo img {
+    width: 8rem;
+    height: 8rem;
+    justify-self: center;
+    align-self: center;
+}
+
 
 #menu {
     width: 64px;
@@ -138,7 +150,6 @@ section {
 }
 
 
-
 @media screen and (max-width: 1260px) {
     
     #Projects {
@@ -203,6 +214,7 @@ section {
         padding: 0;
         grid-column-start: 2;
         justify-self: center;
+        padding-left: 7.5rem;
     }
     
     #menu {
