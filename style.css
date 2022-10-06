@@ -34,11 +34,8 @@ header div {
 }
 
 .logo img {
-    width: 8rem;
-    height: 8rem;
-    justify-self: center;
-    align-self: center;
-    object-fit: cover;
+    background: url(images/icons/apple-touch-icon.png) no-repeat center center fixed; 
+    background-size: cover;
 }
 
 
