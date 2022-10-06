@@ -38,6 +38,7 @@ header div {
     height: 8rem;
     justify-self: center;
     align-self: center;
+    object-fit: cover;
 }
 
 
